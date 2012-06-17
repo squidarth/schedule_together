@@ -20,6 +20,7 @@ group :test do
 end
 
 gem 'capistrano'
+gem 'unicorn'
 gem 'haml-rails'
 gem 'rspec-rails'
 gem 'capybara'
