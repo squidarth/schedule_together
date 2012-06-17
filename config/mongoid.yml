@@ -7,6 +7,6 @@ test:
   database: friendreminder_test
 
 production:
-  host: "ec2-23-22-250-175.compute-1.amazonaws.com"
+  host: "localhost"
   port: 27017 
   database: friendreminder_pro
