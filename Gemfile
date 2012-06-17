@@ -19,6 +19,7 @@ group :test do
   gem 'factory_girl_rails'
 end
 
+gem 'capistrano'
 gem 'haml-rails'
 gem 'rspec-rails'
 gem 'capybara'
