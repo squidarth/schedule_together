@@ -52,5 +52,5 @@ after "deploy:update_code", "bundler:bundle_new_release"
 
 after "deploy:update_code" do
   run "cd #{release_path}; RAILS_ENV=production rake assets:precompile"
-  run "cd #{release_path}; RAILS_ENV=production rake unicorn:graceful_restart
+  run "cd #{release_path}; RAILS_ENV=production rake unicorn:restart"
 end
