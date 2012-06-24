@@ -1,4 +1,12 @@
 Friendreminder::Application.routes.draw do
+  get "users/show"
+
+  get "users/create"
+
+  get "users/update"
+
+  get "users/destroy"
+
   devise_for :users
 
   root to: "public#home" 
