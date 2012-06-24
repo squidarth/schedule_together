@@ -9,7 +9,6 @@ set :user, "ubuntu"
 set :use_sudo, true
 ssh_options[:keys] = ["~/.ssh/id_rsa", "~/.ssh/.ec2/sidhost.pem"]
 set :deploy_to, "/var/www"
-set :rvm_ruby_string, '1.9.2@friendreminder'
 set :rvm_type, :user
 
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
