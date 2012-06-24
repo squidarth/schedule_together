@@ -1,3 +1,5 @@
+require 'rvm/capistrano'
+
 set :application, "friendreminder"
 set :repository,  "git@github.com:sshanker220/schedule_together.git"
 

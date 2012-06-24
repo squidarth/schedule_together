@@ -30,6 +30,7 @@ gem 'devise'
 gem 'omniauth'
 gem 'jquery-rails'
 
+gem 'rvm-capistrano'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
