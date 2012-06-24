@@ -50,7 +50,8 @@ end
 after "deploy:rollback:revision", "bundler:install"
 after "deploy:update_code", "bundler:bundle_new_release"
 
+=begin
 after "deploy:update_code" do
   run "cd #{release_path}; RAILS_ENV=production rake assets:precompile"
 end
-
+=end
