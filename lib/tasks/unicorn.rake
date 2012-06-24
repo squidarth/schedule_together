@@ -1,6 +1,6 @@
 namespace :unicorn do
   def unicorn_pid
-    "#{Rails.root}/shared/pids/unicorn.pid"
+    "#{Rails.root}/tmp/pids/unicorn.pid"
   end
   
   desc 'start Unicorn production server daemonized (config file: config/unicorn.rb)'
