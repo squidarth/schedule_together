@@ -29,6 +29,7 @@ gem 'bson_ext'
 gem 'devise'
 gem 'omniauth'
 gem 'jquery-rails'
+gem 'backbone-rails'
 
 gem 'therubyracer'
 gem 'execjs'
