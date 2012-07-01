@@ -1,0 +1,7 @@
+%h1 My To-Do's
+
+:javascript
+  $(function () {
+    window.router = new FriendReminder.Routers.ItemsRouter({items: #{@items.to_json.html_safe}});
+    Backbone.history.start();
+  });

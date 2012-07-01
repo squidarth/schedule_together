@@ -1,4 +1,32 @@
 Friendreminder::Application.routes.draw do
+  get "lists/index"
+
+  get "lists/show"
+
+  get "lists/new"
+
+  get "lists/create"
+
+  get "lists/edit"
+
+  get "lists/update"
+
+  get "lists/destroy"
+
+  get "items/index"
+
+  get "items/show"
+
+  get "items/new"
+
+  get "items/create"
+
+  get "items/edit"
+
+  get "items/update"
+
+  get "items/destroy"
+
   get "users/show"
 
   get "users/create"
@@ -13,6 +41,7 @@ Friendreminder::Application.routes.draw do
   get "public/about"
   get "public/contact"
 
+  resources :items
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
